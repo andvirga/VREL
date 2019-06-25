@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/VREL_IntroScene.unity
+    guid: 5dce9008aa088ff4984d723ec656e148
   m_configObjects: {}

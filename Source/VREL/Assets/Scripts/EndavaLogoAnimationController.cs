@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class IntroAnimationController : MonoBehaviour
+public class EndavaLogoAnimationController : MonoBehaviour
 {
     private AudioSource audioSource;
 
@@ -13,11 +13,13 @@ public class IntroAnimationController : MonoBehaviour
         audioSource = gameObject.GetComponent<AudioSource>();
     }
 
-    public void IntroStart(){
+    public void IntroStart()
+    {
         audioSource.Play();
     }
 
-    public void IntroEnd(){
+    public void IntroEnd()
+    {
         SceneManager.LoadScene("VREL_MainMenuScene");
     }
 

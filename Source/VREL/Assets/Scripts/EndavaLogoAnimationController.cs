@@ -20,7 +20,7 @@ public class EndavaLogoAnimationController : MonoBehaviour
 
     public void IntroEnd()
     {
-        SceneManager.LoadScene("VREL_MainMenuScene");
+        SceneManager.LoadScene("VREL_CoursesScene");
     }
 
     // Update is called once per frame

@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VREL_CoursesScene.unity
     guid: a932a23a626789a4593501d854c95252
+  - enabled: 1
+    path: Assets/Scenes/VREL_SingletonScene.unity
+    guid: 732ab26e75b045a44a18fa8ffb5e61bf
   m_configObjects: {}
